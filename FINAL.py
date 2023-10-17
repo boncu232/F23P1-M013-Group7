@@ -160,7 +160,7 @@ def decode(file_name="BinOutput.txt"):
     nfile = open("TextOutput.txt", "w+")
     nfile.write(char_string)
     nfile.close()
-    print(char_string)
+    #print(char_string)
 
 
 def text_checker(text1, text2):
